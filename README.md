@@ -5,7 +5,7 @@ This program implements an e-shop system with separate interfaces for admins and
 
 Customers can:
 
-*- Maintain their own shopping cart:
+ -* Maintain their own shopping cart:
 
 Add products
 
