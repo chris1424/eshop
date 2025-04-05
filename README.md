@@ -1,8 +1,59 @@
-This program implements an e-shop application with separate interfaces for both admins and customers. It allows the management and interaction with products and users, whether they are clients or admins. The interaction between products and 
-the different types of users is, of course, different. For instance, customers have their own shopping cart where they can add products, edit and remove previously added items,complete their orders, and view them. Additionally, they can search for 
-products and add them directly to their cart. A notable feature is that customers can even review their past orders stored in a file named after their username.
-On the other hand, admins interact with the products in a different way. They have the ability to add new products for customers, edit existing ones, and even remove products. Another important functionality is that admins can view the 
-top 5 most ordered products. Furthermore, they can check all unavailable products.
-These operations were implemented using three vectors: one for users, one for products, and one for the shopping cart. The first two vectors were populated with data from the provided files, so each product that existed in the files
-was added to the corresponding vector. All changes made during the program execution were applied to the vectors, not the files. The files were updated only at the end, except when a customer completes an order, in which case their 
-order history is immediately updated
+🛒 E-Shop Application
+This program implements an e-shop system with separate interfaces for admins and customers. It provides full functionality for managing and interacting with products and users.
+
+👤 Customer Features
+
+Customers can:
+
+*Maintain their own shopping cart:
+
+Add products
+
+Edit or remove previously added items
+
+Complete orders
+
+Search for products and add them directly to their cart
+
+View past orders, which are stored in a file named after their username
+
+Order history is saved immediately upon checkout
+
+🛠️ Admin Features
+Admins have extended control and can:
+
+Add new products
+
+Edit existing products
+
+Remove products
+
+View:
+
+The top 5 most ordered products
+
+A list of currently unavailable products
+
+🧱 Internal Structure
+The program uses three vectors for data handling:
+
+A vector for users
+
+A vector for products
+
+A vector for the shopping cart
+
+🔄 Data Flow
+Product and user data are initially loaded from provided files
+
+All actions during runtime are performed on the in-memory vectors
+
+Files are only updated at the end of the program, except when a customer completes an order (in which case their order file is updated immediately)
+
+Αν θες μπορώ να σου προσθέσω και ενότητες όπως:
+
+💻 How to Compile & Run
+
+📂 File Structure
+
+📎 Example User Flow
